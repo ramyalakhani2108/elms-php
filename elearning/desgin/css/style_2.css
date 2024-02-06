@@ -1,0 +1,100 @@
+/* login and signup php css  */
+/* this is the second page  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color : white;  
+}
+
+html,
+body{
+    overflow: hidden;
+    background : black;
+    height: 100vh;
+}
+
+.datapage1{
+background: blueviolet;
+height : 20vh;
+width: 100%;
+    border : 0;
+    
+}
+.pageheader{
+    color : white;
+    margin : 10px 10px 10px 10px;
+    padding : 0px 10px 10px 67px;
+    font-size: xx-large;
+}
+.userinfo{
+    color : white;
+    margin : 10px 10px 10px 10px;
+    padding : 0px 100px 10px 67px;
+    font-size: large;
+    text-align : right;
+}
+.userinfo:hover{
+    background-color: greenyellow;
+    color : black;
+    text-decoration: underline;
+}
+
+.datafeild{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 56px;
+}
+/* .datafeild th{
+    padding: 3px 150px 15px 40px;
+} */
+.datafeild td:hover{
+    padding: 3px 150px 15px 40px;
+    background: blueviolet;
+    color : black;
+}
+.datafeild tr:hover{
+    padding: 3px 150px 15px 40px;
+    background: blueviolet;
+    color : black;
+}
+
+.datafeild th{
+    background: blueviolet;
+    margin: 10%;
+    padding: 4px 150px 15px 30px;   
+}
+
+.datarows{
+    /* display: flex    ; */
+    align-items: center;
+}
+
+.iud_button button{
+    color : black;
+    width: 100%;
+    padding: .6rem 0;
+    border-radius: .5rem;
+    border: none;
+    background-color: purple ;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    /* background-color: black; */
+
+}
+
+.iud_button button:hover{
+    background-color: black;
+}
+
+.nohover td:hover{
+    background-color: black;
+}
+.nohover tr:hover{
+    background-color: blue;
+}
+
